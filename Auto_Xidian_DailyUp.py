@@ -11,7 +11,7 @@ from email.mime.text import MIMEText
 
 def send_email(message):  # 发送一封邮件
     msg_from = '243078372@qq.com'  ￥ 发送方邮箱 
-    passwd = 'DaiSC19990816'   ￥ 发送方邮箱密码，QQ邮箱，新浪邮箱请填写授权码
+    passwd = 'udkgzqbullwlbihj' ￥ 发送方邮箱密码，QQ邮箱，新浪邮箱请填写授权码
     msg_to = msg_from  # 接收方，即自己给自己发
     a=int(time.strftime("%H",time.localtime()))
     if a >= 20:# 注意GitHub上是格林威治时间
