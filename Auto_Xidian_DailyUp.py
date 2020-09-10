@@ -32,7 +32,7 @@ def send_email(message):  # 发送一封邮件
 conn = requests.Session()
 result_login = conn.post(
     url='https://xxcapp.xidian.edu.cn/uc/wap/login/check',
-    data={'username': 17040520010, 'password': Daisc19990816}#￥ username后填写学号，password后填写统一登录密码
+    data={'username': '17040520010', 'password': 'Daisc19990816'}#￥ username后填写学号，password后填写统一登录密码
 )
 
 if result_login.status_code != 200:
