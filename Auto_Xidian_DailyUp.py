@@ -10,8 +10,8 @@ from email.mime.text import MIMEText
 
 
 def send_email(message):  # 发送一封邮件
-    msg_from = '243078372@qq.com'  #￥ 发送方邮箱 
-    passwd = 'udkgzqbullwlbihj'# ￥ 发送方邮箱密码，QQ邮箱，新浪邮箱请填写授权码
+    msg_from = '243078372@qq.com'  #发送方邮箱 
+    passwd = udkgzqbullwlbihj # 发送方邮箱密码，QQ邮箱，新浪邮箱请填写授权码
     msg_to = msg_from  # 接收方，即自己给自己发
     a=int(time.strftime("%H",time.localtime()))
     if a >= 20:# 注意GitHub上是格林威治时间
@@ -45,7 +45,7 @@ else:
 data={
     "ymtys":"0",#一码通颜色
     "sfzx": "1",#是否在校
-    "tw": "1",#体温范围：36.5°C~36.9°C
+    "tw": "2",#体温范围：36.5°C~36.9°C
     "area": b'\xE9\x99\x95\xE8\xA5\xBF\xE7\x9C\x81\x20\xE8\xA5\xBF\xE5\xAE\x89\xE5\xB8\x82\x20\xE9\x95\xBF\xE5\xAE\x89\xE5\x8C\xBA',#陕西省 西安市 长安区
     "city": b'\xE8\xA5\xBF\xE5\xAE\x89\xE5\xB8\x82',#西安市
     "province": b'\xE9\x99\x95\xE8\xA5\xBF\xE7\x9C\x81',#陕西省
